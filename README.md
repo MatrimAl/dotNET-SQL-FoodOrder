@@ -9,3 +9,4 @@ It is currently under development.
 
 ## Database Diagram
 
+![image](https://github.com/user-attachments/assets/a38022e8-acf6-4322-a1ea-654bf8807631)
