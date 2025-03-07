@@ -1,0 +1,16 @@
+﻿<div class="login-container">
+    <h2>Giriş Yap</h2>
+
+    <form asp-action="Login" method="post">
+        <div class="form-group">
+            <label for="userName">Kullanıcı Adı</label>
+            <input type="text" id="userName" name="userName" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Giriş Yap</button>
+    </form>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+</div>

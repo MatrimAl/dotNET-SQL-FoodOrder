@@ -1,0 +1,32 @@
+﻿@model IEnumerable<FoodOrderSystem.Models.Meal>
+
+<div class="container">
+    <h2>Ürünler</h2>
+
+    <div>
+        @foreach (var category in ViewBag.Categories)
+        {
+            <a href="#" class="btn btn-primary">@category.Name</a>
+        }
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Kategori</th>
+                <th>Fiyat</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var meal in Model)
+            {
+                <tr>
+                    <td>@meal.Name</td>
+                    <td>@meal.Category.Name</td>
+                    <td>@meal.MealPriceTrackings.LastOrDefault()?.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

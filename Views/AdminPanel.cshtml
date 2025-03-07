@@ -1,0 +1,25 @@
+﻿@model IEnumerable<FoodOrderSystem.Models.Meal>
+
+<div class="container admin-panel">
+    <h2>Admin Paneli</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Kategori</th>
+                <th>Fiyat</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var meal in Model)
+            {
+                <tr>
+                    <td>@meal.Name</td>
+                    <td>@meal.Category.Name</td>
+                    <td>@meal.MealPriceTrackings.LastOrDefault()?.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

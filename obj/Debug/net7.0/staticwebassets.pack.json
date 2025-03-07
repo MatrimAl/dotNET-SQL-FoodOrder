@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\matri\\source\\repos\\FoodOrderSystem\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FoodOrderSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FoodOrderSystem.props",
+      "PackagePath": "build\\FoodOrderSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FoodOrderSystem.props",
+      "PackagePath": "buildMultiTargeting\\FoodOrderSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FoodOrderSystem.props",
+      "PackagePath": "buildTransitive\\FoodOrderSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

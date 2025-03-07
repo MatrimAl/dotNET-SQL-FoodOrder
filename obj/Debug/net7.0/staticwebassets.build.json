@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "rINF1FuFJ/7N3rqquQbrrM0ATd2qTtCJKFBEx2azQPM=",
+  "Source": "FoodOrderSystem",
+  "BasePath": "_content/FoodOrderSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FoodOrderSystem\\wwwroot",
+      "Source": "FoodOrderSystem",
+      "ContentRoot": "C:\\Users\\matri\\source\\repos\\FoodOrderSystem\\wwwroot\\",
+      "BasePath": "_content/FoodOrderSystem",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\matri\\source\\repos\\FoodOrderSystem\\wwwroot\\css\\styles.css",
+      "SourceId": "FoodOrderSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matri\\source\\repos\\FoodOrderSystem\\wwwroot\\",
+      "BasePath": "_content/FoodOrderSystem",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    }
+  ]
+}
